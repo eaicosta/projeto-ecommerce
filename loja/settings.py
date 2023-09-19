@@ -44,11 +44,16 @@ INSTALLED_APPS = [
     'perfil',
     'produto',
 
+    # Crispy Forms
+    'crispy_forms',
+    'crispy_bootstrap4',
 
 
     # TODO: Remover debug toolbar
     'debug_toolbar',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
